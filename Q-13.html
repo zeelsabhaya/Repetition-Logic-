@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number=parseInt(prompt("Enter Fibonacci series number"))
+        let n0=0
+        let n1=1
+        let sum
+        console.log("Fibonacci series using for loop");
+        for(let i=0 ; i<=number;i++){
+            console.log(n0);
+            sum=n0+n1
+            n0=n1
+            n1=sum
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let number = parseInt(prompt("Enter number"));
+      let Prime = true;
+    console.log("prime or not using for loop");
+      if (number > 1) {
+        for (let i = 2; i < number; i++) {
+          if (number % 2 == 0) {
+            Prime = false;
+          }
+        }
+        if (Prime) {
+          console.log("This is prime number");
+        } else {
+          console.log("This is not prime number");
+        }
+    } else {
+          console.log("This number is not valid");
+      }
+    </script>
+  </body>
+</html>
